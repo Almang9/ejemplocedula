@@ -1,0 +1,155 @@
+main{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 4px groove crimson;
+    margin: 1px;
+    height: 500px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+figure.profile{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background-image: url(fotito.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+div span{
+    text-transform: uppercase;
+}
+#header{  
+    margin: 0px;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+}
+#cabeza{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50px;
+    border-bottom: 2px groove black;
+
+}
+.content-left{
+    height: 80%;
+    flex: 1;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+#cedula{
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    align-items: flex-start;
+    height: 10%;
+}
+#cedula span{
+    justify-content: center;
+    margin-left: 55%;
+}
+#cedula span span{
+    margin-left: 0px;
+}
+.datos{
+    line-height: 2rem;
+    font-weight: 500;
+    height: 25%;
+    font-size: 1rem;
+}
+#firma{
+    font-size: 0.8rem;
+}
+div.membrete{
+    display: flex;
+    justify-content: center;
+    height: 25%;
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+}
+.datos.datos.datos-2{
+    display: flex;
+    margin-top: 30px;
+    height: 40%;
+}
+#vzla span{
+    margin-left: 200px;
+}
+#vzla{
+    text-align: center;  
+}
+#huella{
+    display: flex;
+    background-image: url(fingerprint.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 150px;
+    margin: 0px 120px 0 0;
+}
+.datos-bajos{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+}
+.datos-bajos div div{
+font-weight: 600;
+margin: 0px;
+font-style: oblique;
+font-size: 12px;
+}
+.datos-bajos div{
+    font-size: 21px;
+    font-weight: 800;
+    display: block;
+    margin: 5px;
+    line-height: 1rem;
+}
+.firma-director{
+    box-sizing: border-box;
+    height: 15%;
+}
+.content.content-right{
+    display: block;
+    height: 80%;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 2rem;;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.content.content-right figure{
+    margin-left: 50px;
+}
+div.amarillo{
+    background-color: rgb(218 210 97);
+}
+div.azul{
+    background-color: rgb(60 56 132);
+    color: white;
+}
+div.rojo{
+    background-color: rgb(220 108 96);
+   
+}
+div.blanco{
+    background-color: whitesmoke;
+}
